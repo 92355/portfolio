@@ -1,0 +1,104 @@
+.skills {
+  background: #fafafa;
+  padding: 10vh 10%;
+}
+
+.skills h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+  --text-align : initial;
+  text-align: left;
+}
+
+.skills-section {
+  margin-bottom: 8rem;
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  border-left: 6px solid #2563eb;
+  font-weight: 600;
+  --text-align : initial;
+  text-align: left;
+}
+
+.skills-section .front {
+  border-left-color: #f67242;
+}
+.skills-section .back {
+  border-left-color: #a3d938;
+}
+.skills-section .tool {
+  border-left-color: #be20be;
+}
+
+.skills-group {
+--text-align : initial;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  padding-left: 200px;
+}
+
+.skills-group p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  
+}
+
+.skill-box {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.9s ease-out;
+}
+
+.skill-box ul {
+  list-style: none;
+  padding-left: 200px;
+  margin: 0;
+
+}
+
+.skill-box ul li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.4rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.skill-box ul li::before {
+  content: "•";
+  color: #2563eb;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 80px 20px;
+  }
+
+  .skills h1 {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  .skills-section h2 {
+    font-size: 1.5rem;
+    border-left-width: 4px;
+  }
+
+  .skills-group p {
+    font-size: 1rem;
+  }
+
+  .skill-box ul li {
+    font-size: 0.95rem;
+  }
+}
