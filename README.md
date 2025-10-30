@@ -12,21 +12,7 @@ React + Vite 기반으로 제작된 개인 웹 포트폴리오입니다.
 | **Version Control** | Git, GitHub                            |
 
 
-jinwoo-portfolio/
-├── public/
-│   ├── favicon.ico
-│   └── index.html
-├── src/
-│   ├── assets/            
-│   ├── components/       
-Footer
-│   ├── style/             
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── vite.config.js
-└── README.md
+![alt text](image.png)
 
 
 💡 Vite 기반 빠른 개발 환경
