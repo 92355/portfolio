@@ -1,16 +1,40 @@
-# React + Vite
+🧑‍💻 Jinwoo Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+끊임없이 배우며 성장하는 개발자 진우의 React 포트폴리오
+React + Vite 기반으로 제작된 개인 웹 포트폴리오입니다.
+프로젝트와 기술 스택, 소개, 연락처를 한눈에 볼 수 있도록 구성했습니다.
 
-Currently, two official plugins are available:
+| 분류                  | 사용 기술                                  |
+| ------------------- | -------------------------------------- |
+| **Frontend**        | React, Vite, JavaScript, JSX, CSS3     |
+| **Styling**         | Custom CSS, Responsive Layout, Flexbox |
+| **Deployment**      | GitHub Pages, gh-pages                 |
+| **Version Control** | Git, GitHub                            |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+jinwoo-portfolio/
+├── public/
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── assets/            
+│   ├── components/       
+Footer
+│   ├── style/             
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+💡 Vite 기반 빠른 개발 환경
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 반응형 디자인 (모바일 완벽 지원)
+
+🌙 라이트/다크 테마 토글
+
+🔗 프로젝트별 GitHub / Live Demo 버튼
+
+📬 푸터(Contact) 영역에서 이메일 주소 표시
