@@ -12,7 +12,7 @@ function Project() {
       tech: ["React", "Vite", "CSS3"],
       img: logo,
       github: "https://github.com/92355/portpolio.git",
-      demo: "https://92355.github.io/portfolio/",
+      demo: "",
     },
     {
       title: "Mini Platform",
